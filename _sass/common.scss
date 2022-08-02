@@ -1,0 +1,13 @@
+@import "atoms/colors";
+@import "atoms/fontsizes";
+
+
+/* This one last, for the overrides */
+@import "bootstrap/scss/bootstrap";
+
+
+/* _Includes imports */
+@import "../_includes/navbar_style";
+@import "../_includes/footer_style";
+@import "../_layouts/default_style";
+

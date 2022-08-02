@@ -1,0 +1,20 @@
+---
+layout: compress
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    {% include fontawesome.html %}
+    {% include screen-layout.html %}
+  </head>
+  <body>
+  <div class="mainplaceholder">
+    {% include navbar.html %}
+    <main class="flex-fill">
+    {{ content }}
+    </main>
+    {% include footer.html %}
+  </div>
+  </body>
+</html>

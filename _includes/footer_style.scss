@@ -1,0 +1,29 @@
+footer {
+  .socials {
+    display: flex;
+    justify-content: center;
+    a {
+      border-radius: 50%;
+      width: 2rem;
+      height: 2rem;
+      text-align: center;
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .telegram {
+      background-color: #0088cc;
+    }
+    .twitter {
+      background-color: #55acee;
+    }
+    .linkedin {
+      background-color: #0082ca;
+    }
+    .github {
+      background-color: #333333;
+    }
+  }
+}
